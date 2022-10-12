@@ -1,0 +1,154 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/******************************************/
+
+body {
+  background-color: rgb(102, 118 ,138);
+}
+
+header nav > * {
+  float: left;
+  width: 5%;
+  margin: 0 12%;
+}
+
+header nav li {
+  padding-left: 10px;
+  float: left;
+  width: 50%;
+}
+
+/* body > header > nav * {
+  background-color: rgb(102, 118 ,138);
+} */
+
+/* 
+header nav > a {
+  float: left;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(102, 118 ,138);
+  margin-right: 80%;
+}
+
+header > nav > img {
+  width: 4%;
+  float: left;
+  margin: 0 50%;
+}
+
+nav a {
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  width: 10%;
+} */
+
+/* Main */
+
+main {
+  clear: both;
+  color: white;
+  text-align: center;
+  height: 200px;
+  background-color: rgb(102, 118 ,138);
+  margin-top: 0;
+}
+
+main > img {
+  margin: 0 auto;
+}
+
+main > span {
+  color: black;
+}
+
+/* WHY */
+section {
+  text-align: center;
+  background-color: white;
+  height: 200px;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+/* VISIT */
+
+.gym,
+.you {
+  height: 400px;
+  width: 50%;
+  background-color: rgb(219, 223, 226);
+  float: left;
+  text-align: center;
+}
+
+section > section > h4 {
+  border: 1px solid black;
+  width: 100px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.blankBox {
+  border: 2px solid rgb(158, 158, 158);
+  width: 30%;
+  height: 150px;
+  background-color: rgb(102, 118 ,138);
+  color: rgb(102, 118 ,138);
+  margin: 0 auto;
+}
+
+/* VOLUNTEER */
+
+.volunteer {
+  clear: both;
+  background-color: white;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.volunteer > h4 {
+  border: 2px solid rgb(158, 158, 158);
+  width: 150px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header,
+main,
+section {
+  height: 25%;
+}
+
+header {
+  border: 2px solid black;
+  height: 100px;
+  background-color: rgb(102, 118 ,138);
+}
